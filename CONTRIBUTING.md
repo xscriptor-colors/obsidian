@@ -6,7 +6,7 @@ Thanks for considering contributing to Xscriptor.
 
 ### Report bugs
 
-Open an issue at https://github.com/xscriptor/obsidian/issues with:
+Open an issue at https://github.com/xscriptor-colors/obsidian/issues with:
 
 - Your Obsidian version
 - The theme version
