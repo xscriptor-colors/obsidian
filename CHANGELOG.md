@@ -1,5 +1,9 @@
 # Changelog
 
+## [2026-08-23]
+
+- Migrate all customizations to xscriptor-colors
+
 ## 2.0.0
 
 - 12 built-in color schemes (city-themed), switchable via Style Settings
