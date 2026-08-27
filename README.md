@@ -5,7 +5,6 @@
   <a href="https://github.com/xscriptor-colors/obsidian/blob/main/LICENSE"><img src="https://img.shields.io/github/license/xscriptor-colors/obsidian?style=flat-square&color=483699" alt="License"></a>
   <a href="https://github.com/xscriptor-colors/obsidian/stargazers"><img src="https://img.shields.io/github/stars/xscriptor-colors/obsidian?style=flat-square&color=483699" alt="Stars"></a>
   <a href="https://obsidian.md"><img src="https://img.shields.io/badge/Obsidian-Theme-483699?style=flat-square&logo=obsidian" alt="Obsidian Theme"></a>
-  <a href="https://github.com/xscriptor-colors/obsidian/actions"><img src="https://img.shields.io/github/actions/workflow/status/xscriptor-colors/obsidian/main.yml?style=flat-square&label=build&color=483699" alt="Build"></a>
 </p>
 
 An elegant Obsidian theme for coders and writers with beautiful EB Garamond typography and 12 built-in color schemes.
@@ -124,16 +123,10 @@ Typography: EB Garamond — licensed under SIL Open Font License 1.1.
 <div align="center">
 <h2>X</h2>
 
-<a href="https://xscriptor.io">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/verified-filled.svg" width="24" alt="X developer Web" />
-</a>
+<a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/github.svg" width="24" alt="X Github Profile" />
-</a>
+<a href="https://github.com/xscriptor">github</a>
  & 
-<a href="https://www.xscriptor.com">
-  <img src="https://xscriptor.github.io/icons/icons/code/product-design/xsvg/quotes.svg" width="24" alt="Xscriptor main web" />
-</a>
+<a href="https://www.xscriptor.com">X</a>
 
 </div>
