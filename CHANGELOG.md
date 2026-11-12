@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Restored reproducible palette tooling: `colors.md`, `colors-css.md`, `scripts/build_unified.py` and the scheme documentation.
+- Added `--check` mode to verify that `theme.css` matches `colors.md` without rewriting it.
+- Updated the README with the development workflow and fixed the license badge.
+
 ## [2026-08-23]
 
 - Migrate all customizations to xscriptor-colors

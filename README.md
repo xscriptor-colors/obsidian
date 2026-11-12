@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/xscriptor-colors/obsidian/releases"><img src="https://img.shields.io/github/v/release/xscriptor-colors/obsidian?style=flat-square&label=version&color=483699" alt="Version"></a>
-  <a href="https://github.com/xscriptor-colors/obsidian/blob/main/LICENSE"><img src="https://img.shields.io/github/license/xscriptor-colors/obsidian?style=flat-square&color=483699" alt="License"></a>
+  <a href="https://github.com/xscriptor-colors/obsidian/blob/master/LICENSE"><img src="https://img.shields.io/github/license/xscriptor-colors/obsidian?style=flat-square&color=483699" alt="License"></a>
   <a href="https://github.com/xscriptor-colors/obsidian/stargazers"><img src="https://img.shields.io/github/stars/xscriptor-colors/obsidian?style=flat-square&color=483699" alt="Stars"></a>
   <a href="https://obsidian.md"><img src="https://img.shields.io/badge/Obsidian-Theme-483699?style=flat-square&logo=obsidian" alt="Obsidian Theme"></a>
 </p>
@@ -25,6 +25,7 @@ An elegant Obsidian theme for coders and writers with beautiful EB Garamond typo
 - Folder color borders adapting to the active scheme
 - Graph View colors matching the active palette
 - Style Settings integration for fine-grained customization
+- Reproducible palette generation from `colors.md`
 
 <div align="center">
 
@@ -37,6 +38,31 @@ An elegant Obsidian theme for coders and writers with beautiful EB Garamond typo
 
 ### Required plugin
 Install [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) to access the scheme selector and all customization options.
+
+<div align="center">
+
+## Development
+
+</div>
+
+The 12 scheme blocks at the end of `theme.css` are generated from `colors.md`:
+
+```bash
+# Regenerate theme.css after editing colors.md
+python3 scripts/build_unified.py
+
+# Verify that theme.css is in sync without rewriting it
+python3 scripts/build_unified.py --check
+```
+
+- `colors.md`: source palettes for the 12 schemes.
+- `colors-css.md`: ANSI-to-CSS mapping with visual swatches.
+- `docs/reproducible-color-schemes.md`: architecture and how to add a scheme.
+- `scripts/build_unified.py`: regenerates the Style Settings block and all scheme overrides.
+
+Do not edit the generated `SCHEME OVERRIDES` section by hand. Change `colors.md` and regenerate.
+
+The legacy single-palette scripts from the 1.x workflow remain in the git history and are not part of the current generator.
 
 <div align="center">
 
@@ -125,7 +151,7 @@ Typography: EB Garamond — licensed under SIL Open Font License 1.1.
 
 <a href="https://xscriptor.io">Dev</a>
  & 
-<a href="https://github.com/xscriptor">github</a>
+<a href="https://github.com/xscriptor">Github</a>
  & 
 <a href="https://www.xscriptor.com">X</a>
 
